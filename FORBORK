@@ -1,8 +1,3 @@
- 
- 
- I made these at school and have no place to save em. will delete when i get home
- 
- 
  new State("Rain", // Each bullet coded seperate 
       new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 0, cooldown 600),
       new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 10, cooldown 600),
@@ -24,12 +19,12 @@
       new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 170, cooldown 600),
       new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 180, cooldown 600),
 
-
-
+　
+　
 new Shoot(50, 8,count: 16, projectileIndex: 3, shootAngle 90, FixedAngle 180, cooldown 600),  // all in one
 
-
-
+　
+　
  <Projectile id="3">
       <ObjectId>DMShield</ObjectId>     //Custom object make when home
       <MinDamage>50</MinDamage>
@@ -52,7 +47,7 @@ new Shoot(50, 8,count: 16, projectileIndex: 3, shootAngle 90, FixedAngle 180, co
       <LifetimeMS>555</LifetimeMS>
     </Projectile>
 
-
+　
 new State("Rain2",
 new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 0, cooldown 3200),
       new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 10, cooldown 3000),
@@ -95,4 +90,39 @@ new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 0, cooldown 3200),
       new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 200, cooldown 2800),
       new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 190, cooldown 3000),
       new Shoot(50, 8, projectileIndex: 3,shootAngle 90, FixedAngle 180, cooldown 3200),
-        new TimedTransition(3400, "Minion1S")
+        new TimedTransition(3400, "Rain2"),
+        new HpLessTransition(0.50, "Spawn")
+            ),
+        New State("Spawn",
+            new ConditionalEffect(ConditionEffectIndex.Invulnerable),
+            new Spawn("DragonMinion1", 4),
+             new Taunt("??"),
+             new TimedTransition(4000, "FireBreath")
+            ),
+        new State("FireBreath",
+            new ConditionalEffect(ConditionEffectIndex.Armored),
+            new Shoot(projectileIndex: 4, count: 3, fixedAngle: 90, cooldown: 15, predictive 0.8),
+            new Shoot(projectileIndex: 4, count: 3, fixedAngle: 90, cooldown: 15, predictive 0.8), //fixathome
+            new HpLessTransition(0.30, "Run"),
+           new TimedTransition(11000, "Relax")
+            ),
+        New State("Relax",
+            new ConditionalEffect(ConditionEffectIndex.Armor Broken),
+            new Taunt("??"),
+             new TimedTransition(5000, "FailedDPS"),
+             new HpLessTransition(0.30, "Run")
+           ),
+        new State("FailedDPS",
+            new ConditionalEffect(ConditionEffectIndex.Invulnerable),
+            new Taunt("??"),
+            new Spawn("DragonMinion1", 4),
+            new TimedTransition(5000, "FireBreath"),
+           new HpLessTransition(0.30, "Run")
+
+          ),
+      new State("Run",
+
+　
+　
+　
+　
