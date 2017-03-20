@@ -3,7 +3,7 @@
 # Bork's and Fade's Production like behaviors!
 
 Hey!
-Im going to be posted most if not all of my converted behaviors / Prod like behaviors here. Feel free to use them for 
+Im going to be posting most if not all of my converted behaviors / Prod like behaviors here. Feel free to use them for 
 whatever. 
 
 Most behaviors will be XML -> C# ( no i won't provide the XML behaviors. You can find them on MPGH )
