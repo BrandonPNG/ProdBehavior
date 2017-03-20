@@ -1,4 +1,8 @@
-﻿#region
+Please credit:
+Dr.Fade
+
+
+#region
  
 using wServer.logic.behaviors;
 using wServer.logic.loot;
