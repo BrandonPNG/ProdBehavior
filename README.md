@@ -16,6 +16,6 @@ Or i will simply code them myself. All behaviors i post ( Bork ) will be uploade
 
 Just a simple //Credit to namehere will work. We do this for fun in our spare time to bring others enjoyment. 
 
-Any people who want to contribute message me on Discord.
+Any people who want to contribute message me on Discord. (Bork)
 
  
