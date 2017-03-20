@@ -2,6 +2,7 @@ Pretty simple. Xml should already be in the client
 
 Please credit:
 Bork
+Drop rates are not the same as PROD.
 
               .Init("Coral Gift",
                 new State(
