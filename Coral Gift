@@ -1,11 +1,14 @@
 Pretty simple. Xml should already be in the client 
 
+Please credit:
+Bork
+
               .Init("Coral Gift",
                 new State(
-                new State("FreeItenz"
+                new State("FreeItenz" 
                 )
                 ),
-                new Threshold(0.1,
+                new Threshold(0.1, 
                 new ItemLoot("Coral Juice", 0.7),
                 new ItemLoot("Sea Slurp Egg", 0.7),
                 new ItemLoot("Coral Bow", 0.08),
