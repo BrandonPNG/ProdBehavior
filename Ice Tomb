@@ -2,6 +2,15 @@ Sprites -> http://imgur.com/a/Hn2Ms
 
 Xml's below
 
+Make sure to fix the nile artifact locations on the XML
+
+This ice tomb behavior does not have the tower in the middle that must be broken. 
+
+Please credit:
+Bork
+LoE Soft
+
+
 
   <Object type="0x7fd0" id="Ice Golem">
     <Group>Ice Golems</Group>
