@@ -1,6 +1,6 @@
 
 
-# Bork's and Fade's Production like behaviors!
+# Production like behaviors!
 
 Hey!
 I'm going to be posting most if not all of my converted behaviors / Prod like behaviors here. Feel free to use them for 
@@ -19,3 +19,11 @@ Just a simple //Credit to namehere will work. We do this for fun in our spare ti
 Any people who want to contribute message me on Discord. (Bork)
 
  
+# Thanks to the contributors!
+
+Bork 
+
+Dr.Fade
+
+Mike
+
