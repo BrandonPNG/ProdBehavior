@@ -2,6 +2,8 @@
 
 I noticed FSoD didn't have this working. 
 
+I'm not sure if this works. I made this quite a while ago.
+
 Credit:
 Bork
 
@@ -15,11 +17,11 @@ Bork
 .Init("Purple Goo",
             new State(
                 new State("main",
-                new Shoot(2, 1, 10, 0, coolDown: 500, predictive: 1), // Change this if you have to. it was in your example
+                new Shoot(2, 1, 10, 0, coolDown: 500, predictive: 1),
                     new TimedTransition(5000, "Die")
                     ),
                 new State("Die",
-                 new Shoot(2, 1, 10, 0, coolDown: 500, predictive: 1), // Change this if you have to. it was in your example
+                 new Shoot(2, 1, 10, 0, coolDown: 500, predictive: 1), 
                 new ChangeSize(-10, 0),
                 new Decay(5400)
                     )
