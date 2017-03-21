@@ -1,0 +1,27 @@
+
+
+I noticed FSoD didn't have this working. 
+
+Credit:
+Bork
+
+
+.Init("Bile of Oryx",
+            new State(
+                new Wander(0.3),
+                new Reproduce("Purple Goo", 12, 8, 1, 2500)
+                )
+            )
+.Init("Purple Goo",
+            new State(
+                new State("main",
+                new Shoot(2, 1, 10, 0, coolDown: 500, predictive: 1), // Change this if you have to. it was in your example
+                    new TimedTransition(5000, "Die")
+                    ),
+                new State("Die",
+                 new Shoot(2, 1, 10, 0, coolDown: 500, predictive: 1), // Change this if you have to. it was in your example
+                new ChangeSize(-10, 0),
+                new Decay(5400)
+                    )
+             )
+            )
