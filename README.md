@@ -1,23 +1,10 @@
 
 
 # Production like behaviors!
+# Notice!
 
 Hey!
-I'm going to be posting most if not all of my converted behaviors / Prod like behaviors here. Feel free to use them for 
-whatever. 
-
-Most behaviors will be XML -> C# ( no i won't provide the XML behaviors. You can find them on MPGH )
-Or i will simply code them myself.
-
-
-
-
-# Don't steal. Please credit us
-
-Just a simple //Credit to namehere will work. We do this for fun in our spare time to bring others enjoyment. 
-
-Any people who want to contribute message me on Discord. (Bork)
-
+I have relocated the code to another area for more security. They will still be given out for free but only to those who ask and agree to give us, the coders credit. To get the code simply send me a message on discord and ask for the link. That's all!
  
 # Thanks to the contributors!
 
