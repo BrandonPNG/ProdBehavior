@@ -7,7 +7,7 @@ I'm going to be posting most if not all of my converted behaviors / Prod like be
 whatever. 
 
 Most behaviors will be XML -> C# ( no i won't provide the XML behaviors. You can find them on MPGH )
-Or i will simply code them myself. All behaviors i post ( Bork ) will be uploaded on my youtube for people to see.
+Or i will simply code them myself.
 
 
 
