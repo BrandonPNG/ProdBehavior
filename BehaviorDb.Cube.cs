@@ -1,8 +1,10 @@
-Cube god behavior that i worked on. In the XML for cube god change the HP to 15,000 and ajust drop tables to what you want. 
-This is used on Dream Realms so the loot is boosted quite heavily. Enjoy
+//Cube god behavior that i worked on. In the XML for cube god change the HP to 15,000 and ajust drop tables to what you want. 
+//This is used on Dream Realms so the loot is boosted quite heavily. Enjoy
 
-Please credit - 
-Bork
+
+//Please credit - 
+//Bork
+// Note this is not translated from XML. 
 
 using wServer.logic.behaviors;
 using wServer.logic.loot;
