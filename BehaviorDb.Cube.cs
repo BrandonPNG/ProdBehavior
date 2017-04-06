@@ -4,7 +4,7 @@
 
 //Please credit - 
 //Bork
-// Note this is not translated from XML. 
+// Note this is not translated from XML. And it actually works unlike my last one. Sorry haha
 
 using wServer.logic.behaviors;
 using wServer.logic.loot;
